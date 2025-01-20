@@ -6,6 +6,8 @@ public class TerminalInteraction {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number: ");
         // bekérjük a számot terminálon keresztül
+        /*int number;
+        number = scanner.nextInt();*/
         int number = scanner.nextInt();
         System.out.println("You entered: " + number);
         // System.out.println("You entered: " + scanner.nextInt()); // kizárólag akkor, ha nem kell eltárolni!
